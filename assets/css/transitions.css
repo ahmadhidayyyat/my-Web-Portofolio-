@@ -1,0 +1,8 @@
+/* FILE: assets/css/transitions.css */
+
+html {
+  /* Baris ini yang membuat scroll menjadi mulus */
+  scroll-behavior: smooth;
+}
+
+/* Sisa kode (seperti transisi halaman) bisa ada di bawah sini... */
