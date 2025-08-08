@@ -92,7 +92,7 @@ onBeforeUnmount(() => {
           href="#comments"
           :class="[
             'transition-colors',
-            activeSection === 'about'
+            activeSection === 'comments'
               ? 'text-white font-semibold'
               : 'text-gray-400 hover:text-white',
           ]"
