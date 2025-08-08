@@ -189,7 +189,7 @@ const likeComment = (commentId) => {
             >
               Frontend
               <span
-                class="bg-gradient-to-r from-purple-500 to-fuchsia-500 bg-clip-text text-transparent"
+                class="bg-gradient-to-r from-blue-400 to-indigo-600 bg-clip-text text-transparent"
                 >Developer</span
               >
             </h1>
@@ -205,7 +205,7 @@ const likeComment = (commentId) => {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
-                class="text-gray-400 hover:text-purple-500 transition-colors"
+                class="text-gray-400 hover:text-blue-300 transition-colors"
               >
                 <Icon name="mdi:github" size="36" />
               </a>
@@ -214,7 +214,7 @@ const likeComment = (commentId) => {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
-                class="text-gray-400 hover:text-purple-500 transition-colors"
+                class="text-gray-400 hover:text-blue-300 transition-colors"
               >
                 <Icon name="mdi:instagram" size="36" />
               </a>
@@ -223,13 +223,13 @@ const likeComment = (commentId) => {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="WhatsApp"
-                class="text-gray-400 hover:text-purple-500 transition-colors"
+                class="text-gray-400 hover:text-blue-300 transition-colors"
               >
                 <Icon name="mdi:whatsapp" size="36" />
               </a>
             </div>
             <h1
-              class="mt-6 text-5xl lg:text-3xl font-extrabold leading-tight bg-gradient-to-r from-purple-500 to-fuchsia-500 bg-clip-text text-transparent"
+              class="mt-6 text-5xl lg:text-3xl font-extrabold leading-tight bg-gradient-to-r from-blue-400 to-indigo-600 bg-clip-text text-transparent"
             >
               Beginner for
             </h1>
@@ -240,10 +240,10 @@ const likeComment = (commentId) => {
           <div class="flex justify-center md:justify-end">
             <div class="relative w-96 h-96 lg:w-[32rem] lg:h-[32rem]">
               <div
-                class="absolute inset-0 bg-gradient-to-br from-purple-500 to-fuchsia-500 rounded-full blur-xl animate-pulse -z-10"
+                class="absolute inset-0 bg-gradient-to-br from-blue-400 to-indigo-600 rounded-full blur-xl animate-pulse -z-10"
               ></div>
               <div
-                class="w-full h-full bg-gradient-to-br from-purple-600 to-fuchsia-600 rounded-full p-1"
+                class="w-full h-full bg-gradient-to-br from-blue-500 to-indigo-700 rounded-full p-1"
               >
                 <div class="bg-slate-900 w-full h-full rounded-full p-2">
                   <img
@@ -266,7 +266,7 @@ const likeComment = (commentId) => {
   <section id="articles" class="min-h-screen pt-24">
     <div class="container mx-auto px-8">
       <h2
-        class="text-4xl font-bold text-center leading-tight bg-gradient-to-r from-purple-500 to-fuchsia-500 bg-clip-text text-transparent"
+        class="text-4xl font-bold text-center leading-tight bg-gradient-to-r from-blue-400 to-indigo-600 bg-clip-text text-transparent"
       >
         Kumpulan Artikel Algoritma & Struktur Data
       </h2>

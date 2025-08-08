@@ -9,7 +9,7 @@ definePageMeta({
   <div class="container mx-auto px-4 sm:px-8 py-8">
     <NuxtLink
       to="/#articles"
-      class="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 mb-12 font-semibold transition-colors"
+      class="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 mb-12 font-semibold transition-colors"
     >
       <Icon name="mdi:arrow-left" />
       Kembali ke Daftar Artikel
@@ -17,7 +17,7 @@ definePageMeta({
 
     <header class="mb-12 text-center">
       <h1
-        class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-purple-400 mb-4"
+        class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-blue-400 mb-4"
       >
         N-Queens Problem
       </h1>

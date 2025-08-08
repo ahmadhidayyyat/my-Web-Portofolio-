@@ -16,7 +16,7 @@ defineProps({
     <div class="flex-grow">
       <span class="date text-sm text-gray-400">{{ article.date }}</span>
       <h3
-        class="title text-2xl font-bold text-white mt-2 mb-4 group-hover:text-purple-400 transition-colors"
+        class="title text-2xl font-bold text-white mt-2 mb-4 group-hover:text-blue-400 transition-colors"
       >
         {{ article.title }}
       </h3>
@@ -36,7 +36,7 @@ defineProps({
       <p class="description text-gray-400 mb-6">{{ article.description }}</p>
     </div>
     <span
-      class="read-more text-purple-400 font-semibold flex items-center gap-2 mt-auto"
+      class="read-more text-blue-400 font-semibold flex items-center gap-2 mt-auto"
     >
       Baca Selengkapnya
       <Icon name="mdi:arrow-right" />
