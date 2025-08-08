@@ -1,4 +1,5 @@
 // tailwind.config.js
+import typography from "@tailwindcss/typography";
 /** @type {import('tailwindcss').Config} */
 export default {
   theme: {
@@ -16,9 +17,8 @@ export default {
           "100%": { transform: "translateX(-50%)" },
         },
       },
-      plugins: [require("@tailwindcss/typography")],
       // ============================
     },
   },
-  plugins: [],
+  plugins: [typography],
 };

@@ -141,13 +141,13 @@ const articles = [
 
 // --- LOGIC UNTUK COMMENTS (BAGIAN BARU) ---
 const comments = ref([
-  { id: 1, name: "Orang MKS", text: "Mampus kena Tsunami", likes: 200 },
-  { id: 2, name: "Ornag Palu", text: "Makassar Bau sampah", likes: 4 },
+  { id: 1, name: "Budi", text: "Keren banget portofolionya!", likes: 12 },
+  { id: 2, name: "Sari", text: "Desainnya rapi dan enak dibaca.", likes: 7 },
   {
     id: 3,
-    name: "Ornag Toraja",
-    text: "Sudah sudah, mari makan Babi",
-    likes: 4,
+    name: "Andi",
+    text: "Semangat terus, tulisannya informatif.",
+    likes: 5,
   },
 ]);
 
@@ -249,6 +249,9 @@ const likeComment = (commentId) => {
                   <img
                     src="/image/fotoprofil.jpeg"
                     alt="Foto Profil Ahmad Hidayat"
+                    decoding="async"
+                    width="512"
+                    height="512"
                     class="w-full h-full rounded-full object-cover"
                   />
                 </div>

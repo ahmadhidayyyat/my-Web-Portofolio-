@@ -26,6 +26,10 @@ defineProps({
         <img
           :src="article.image"
           :alt="article.title"
+          loading="lazy"
+          decoding="async"
+          width="640"
+          height="360"
           class="w-full h-full object-cover"
         />
       </div>
